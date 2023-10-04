@@ -33,3 +33,5 @@ pip install django-filter
 ```
 
 **Creo que lo siguiente son los django-admin startproject y tal volver a ver el video**
+
+**Importar decorators para el filtrado de datos** http://127.0.0.1:8000/api/products/by_category/?category=3
