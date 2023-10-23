@@ -21,6 +21,10 @@
     <h3 class="text-danger" v-else-if="estadoVifElseif === false">El estado es falso (usando v-if y v-else-if)</h3>
     <h3 class="text-danger" v-else>El estado es otro (usando v-if y v-else-if)</h3>
 
+
+    <!-- v-for -->
+    <h3 class="text-primary">{{ paises }}</h3>
+
   </div>
 </template>
 
@@ -38,6 +42,9 @@
   // Uso de v-if
   const estadoVif = false;
   const estadoVifElseif = null;
+
+  // Uso del v-for
+  const paises = ['Argentina', 'Brasil', 'Venezuela'];
 
 </script>
 
